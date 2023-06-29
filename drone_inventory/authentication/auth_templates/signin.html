@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+<!--content is just a variable, could b named anything. just needs to match everywhere-->
+{% block content %}
+
+<h1>Log In Here</h1>
+
+<main class="container">
+    <div class="row">
+        <aside class="col-12 col-md-6">
+            <h2>Sign Into Your Account</h2>
+            <!--pulls in form template-->
+            {% include "forms.html" %}
+        </aside>
+    </div>
+</main>
+
+{% endblock content %}
